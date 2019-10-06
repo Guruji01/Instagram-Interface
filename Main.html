@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Deshboard
+	</title>
+	 <link rel="icon" href="instaok.png" />
+</head>
+<body>
+	<div style="width: 101.6%;height: 44vh;
+	background-image: linear-gradient(-10deg,#404DE6, #5851DB,#833AB4, #C13584, #E1306C, #FD1D1D); margin-top: -1%; margin-left: -1%">
+	<img src="instaok.png" style="margin-top: -10%; margin-left: 4%; width: 4%">
+	 <img src="name.png" style="width: 14%;
+	   margin-left:35%; margin-top: 1%">
+
+     
+    </div>
+
+
+
+	<div style="width: 24%;height: 74vh;
+	background-color: #F8F8F8; margin-top: -15%; margin-left: 24%; box-shadow: -3px 5px 3px 0px #aaa ">
+	<img src="s1.jpg" style="width: 100%">
+	 <img src="name.png" style="width: 35%;
+	   margin-left:27%; margin-top: -2%">
+
+	   <div style="width: 100%; height: 7vh;
+	   background-color: white; margin-top: -2%">
+
+	<a href="#"> <img src="me.jpg" style="border-radius: 50% ; height: 6vh; margin-left: 4%; margin-top: 1.5%">
+	    	  </a>
+
+	    	  <p style="font-family: arial; margin-top: -10%; margin-left: 21%">
+	    	  <b>	Naveen</b>
+	    	  </p>
+	    	  <p style="font-family: arial; margin-top: -10%; margin-left: 85%;
+	    	  font-size: 20px ">
+	    	    <b><a href="" style="text-decoration: none; color: black ">	...</a> </b>
+	    	  </p>
+
+	    	    <img src="dilCenter2.png" style="height: 6vh; width: 12%; margin-left: 45%; margin-top: 25%" id="centerdil" ondblclick="hi()"
+	    	    onclick="by()" onmouseout="leave()">
+	   	
+	   </div>
+	   <div style="width: 100%; height: 40vh;
+	   background-image: url('river.jpg'); margin-top: 0%; background-size: cover" id="main">
+
+	</div>
+	<script type="text/javascript">
+		function hi()
+		{
+	 var x = document.getElementById("centerdil").src="dilCenter.png";
+	  var x = document.getElementById("centerdil").style.width="18%";
+	  var x = document.getElementById("centerdil").style.height="8vh";
+	  document.getElementById("d").src="dil.png";
+		Increase();
+		}
+		function by()
+		{
+		document.getElementById("centerdil").src="dilCenter2.png";	
+		document.getElementById("d").src="dil2.png";
+		Decrease();
+		}
+		function leave()
+		{
+	  var x = document.getElementById("centerdil").style.width="12%";
+	  var x = document.getElementById("centerdil").style.height="6vh";
+		}
+		function effect()
+		{
+		document.getElementById("d").src="dil.png";
+		var x = document.getElementById("centerdil").src="dilCenter.png";
+		Increase();
+		}
+		function effectback()
+		{
+		document.getElementById("d").src="dil2.png";
+		var x = document.getElementById("centerdil").src="dilCenter2.png";
+		Decrease();
+		}
+
+		function effect2()
+		{
+		document.getElementById("c").src="comment2.png";
+		}
+
+		function effectback2()
+		{
+		document.getElementById("c").src="comment.png";
+		}
+
+		function effect3()
+		{
+		document.getElementById("s").src="send2.png";
+		}
+
+		function effectback3()
+		{
+		document.getElementById("s").src="send.png";
+		}
+		function noty11()
+		{
+			document.getElementById("noty1").style.
+			display = "none";
+		}
+		function noty22()
+		{
+	    document.getElementById("noty2").style.display = "none";
+		}
+
+	</script>
+
+	   <div style="width: 100%; height: 6vh;
+	   background-color: white; margin-top: -2%">
+	   <img src="dil2.png" style="width: 6%; margin-top: 2%; margin-left: 2%" id="d"
+	     ondblclick ="effect()"  onclick="effectback()">
+	   <img src="comment.png" style="width: 6%;margin-top: 2%; margin-left: 3%" id="c"
+	   ondblclick ="effect2()"  onclick="effectback2()">
+
+
+	  <a href=""> <img src="send.png" style="width: 6%; margin-top: 2%; margin-left: 5%" id="s"
+	        onmouseover ="effect3()"  onmouseout ="effectback3()"></a>
+
+
+
+	        <img src = "notification2.jpg" style="margin-left: 53%; margin-top: 8%"
+	        id="noty1">
+
+	        <img src = "redDot.png" style="margin-left: 66.6%; margin-top: 9%;
+	        width: 1.5%"
+	        id="noty2">
+
+
+
+
+	</div>
+
+	<script type="text/javascript">
+ 
+		function Increase() 
+		{
+
+           document.getElementById("increase").innerHTML="<b>25</b>";
+        }
+
+
+		function Decrease()
+		{
+		 document.getElementById("increase").innerHTML="<b>24</b>";	
+		}
+
+	</script>
+	 <div style="width: 100%; height: 8vh;
+	   background-color: white; margin-top: -2%;
+	   border: solid;
+	   border-top-width: thin; border-color: gray;
+	   border-left: none; border-bottom: none; border-right: none">
+        <img src="dil4.png"style="width: 4%; margin-top: 2%; margin-left: 2%" >
+         <p style="font-family: arial; margin-top: -6%; font-size: 14px; margin-left: 8%" id="increase">
+        	<b>24</b>
+        </p>
+        <p style="font-family: arial; margin-top: -9%; font-size: 14px; margin-left: 16%">
+        	<b>Likes</b> 
+        	 </p>
+        <p style="font-family: arial; margin-top: -4%; font-size: 14px; margin-left: 2%">
+        	<b>Naveen Hi!!</b> 
+        	 </p>
+
+         <p style="font-family: arial; margin-top: -9%; font-size: 14px; margin-left: 28%">
+        	<a href="" style="text-decoration: none;
+        	color: blue"><b>#Travler</b></a>
+        	 </p>
+
+
+	</div>
+	<script type="text/javascript">
+		
+		function eff()
+		{
+          document.getElementById("11").src="homered.png";
+		}
+		function effback()
+		{
+          document.getElementById("11").src="home.png";
+		}
+
+		function eff2()
+		{
+			document.getElementById("22").src="searchred.png";
+		}
+		function effback2()
+		{
+			document.getElementById("22").src="search.png";
+		}
+
+		function eff3()
+		{
+			document.getElementById("33").src="camerared.png";
+		}
+		function effback3()
+		{
+			document.getElementById("33").src="camera.png";
+		}
+
+		function eff4()
+		{
+			document.getElementById("44").src="dil2red.png";
+		}
+		function effback4()
+		{
+			document.getElementById("44").src="dil2.png";
+		}
+
+		function eff5()
+		{
+			document.getElementById("55").src="man2red.png";
+		}
+		function effback5()
+		{
+			document.getElementById("55").src="man2.png";
+		}
+
+	</script>
+	 <div style="width: 100%; height: 5vh;
+	   background-color: #F8F8F8; margin-top: -2%;
+	   border: solid;
+	   border-top-width: thin; border-color: gray;
+	   border-left: none; border-bottom: none; border-right: none">
+	    <a href=""> <img src="home.png" style="width: 7%; margin-top: 1%; margin-left: 2%" 
+	        id="11" onmouseover ="eff()"  onmouseout ="effback()" ></a>
+
+	        <a href=""> <img src="search.png" style="width: 7%; margin-top: 1%; margin-left: 10%" 
+	        id="22" onmouseover ="eff2()"  onmouseout ="effback2()" ></a>
+
+	     <a href="">  <img src="camera.png" style="width: 8%; margin-top: 1%; margin-left: 12%"
+	           id="33"
+	           onmouseover ="eff3()"  onmouseout ="effback3()" ></a>
+
+
+	      <img src="dil2.png" style="width: 8%; margin-top: 1%; margin-left: 14%"
+	           id="44"
+	            onmouseover ="eff4()"  onmouseout ="effback4()" onclick ="noty11()" onclick ="noty22()">
+
+
+	      <a href=""> <img src="man2.png" style="width: 8%; margin-top: 1%; margin-left: 10%"
+	           id="55"
+	           onmouseover ="eff5()"  onmouseout ="effback5()" ></a>
+
+
+	</div>
+	 
+    </div>
+   
+
+
+
+
+    <div style="width: 24%;height: 74vh;
+	background-color: #F8F8F8; margin-top: -38%; margin-left: 54%; box-shadow: 3px 5px 3px 0px #aaa">
+
+	<img src="s1.jpg" style="width: 100%">
+	         
+	 <div style="width: 100%; height: 5vh;
+	   background-color: #F8F8F8; margin-top: 0%;
+	   border: solid;
+	   border-left: none; border-right: none; border-top: none; border-bottom: none;"> 
+	   <a href=""> <img src="set.jpg" style="height: 2.5vh;
+	   margin-left: 88%; margin-top: 1%">
+	</a>
+	<p style="font-size: 3vh;
+	   margin-left:5%; margin-top: -8.5%; font-family: arial">
+	   	<b>Naveen</b>
+	   </p>
+	  
+      </div>
+         <div style="width: 100%; height: 26vh;
+	   background-color: white; margin-top: -2%;
+	   border: solid;
+	   border-top-width: thin; border-color: gray;
+	   border-left: none; border-bottom: none; border-right: none">
+
+	   <a href="#"> <img src="me.jpg" style="border-radius: 50% ; height: 11vh; margin-left: 4%; margin-top: 1.5%">
+	    	  </a>
+	    <p style="font-family: arial; margin-top: -25%; font-size: 16px; margin-left: 35%">
+        	<b>254</b> 
+        	 </p>
+        <p style="font-family: arial; margin-top: -10.5%; font-size: 16px; margin-left: 52%">
+        	<b>2580</b> 
+        	 </p>
+        <p style="font-family: arial; margin-top: -10.5%; font-size: 16px; margin-left: 72%">
+        	<b>180</b> 
+        	 </p>
+
+         <p style="font-family: arial; margin-top: -5.5%; font-size: 10px; margin-left: 35%; color: gray">
+        	<b>Posts</b> 
+        	 </p>
+        <p style="font-family: arial; margin-top: -6.5%; font-size: 10px; margin-left: 51%; color: gray">
+        	<b>followers</b> 
+        	 </p>
+        <p style="font-family: arial; margin-top: -6.5%; font-size: 10px; margin-left: 71%; color: gray">
+        	<b>following</b> 
+        	 </p>
+
+
+        	<a href= ""> <input type="button" value= "Edit profile" style="background-color:#e0e0e0; text-align: center; width: 60%;
+        	 height: 4vh; margin-left: 31%; text-decoration: bold ; border-bottom: none; border-right: none;
+        	    "></a>
+
+        	  <p style="font-family: arial; margin-top: 6%; font-size: 12px; margin-left: 2%; color: black">
+        	<b>Naveen <br/>
+        	   web developer <br/>
+        	   chitkarian<br/>
+        	   Explore ypur potential !!</b> <br/>
+
+        	  <a href="" style="color:
+        	  blue; text-decoration: none;"><p style="font-family: arial; margin-top: 2%; font-size: 12px; margin-left: 2%; color: blue;
+        	    text-decoration: none;
+        	    text-decoration-color: red; margin-top: 2%">
+        	<b>Mysite.com</b></p> </a>
+        	
+             
+
+
+
+	</div>
+	<script type="text/javascript">
+		
+    function lol1()
+    {
+   document.getElementById("l1").src = "g1.jpg";
+    }
+    function lol2()
+    {
+    	document.getElementById("l2").src = "dotline.jpg";
+    }
+    function lol3()
+    {
+  document.getElementById("l3").src = "location.png";
+    }
+    function lol4()
+    {
+   document.getElementById("l4").src = "contact.jpg";
+    }
+
+
+     function lol11()
+    {
+   document.getElementById("l1").src = "bluedots.jpg";
+    }
+    function lol22()
+    {
+    	document.getElementById("l2").src = "g4.jpg";
+    }
+    function lol33()
+    {
+  document.getElementById("l3").src = "g3.png";
+    }
+    function lol44()
+    {
+   document.getElementById("l4").src = "g2.jpg";
+    }
+
+	</script>
+		<div style="width: 100%; height: 6vh;
+	   background-color: white; margin-top: -2%;
+	   border: solid;
+	   border-top-width: thin; border-color: gray;
+	   border-left: none; border-bottom: none; border-right: none">
+	   <a href= ""> <img src="bluedots.jpg" style="width:5%; margin-left: 12%; margin-top: 2%" id="l1" onmouseover="lol1()" onmouseout="lol11()"></a>
+
+	   <a href= ""> <img src="g4.jpg" style="width:8%; margin-left: 18%; margin-top: 2%" id="l2" onmouseover="lol2()" onmouseout="lol22()"></a>
+	   <a href= ""> <img src="g3.png" style="width:6%; margin-left:16%; margin-top: 2%"
+	   	id="l3" onmouseover="lol3()" onmouseout="lol33()"></a>
+
+	   <a href= ""> <img src="g2.jpg" style="width:6%; margin-left:12%; margin-top: 2%"
+	   	  id="l4" onmouseover="lol4()"
+	   	  onmouseout="lol44()"></a>
+
+
+	</div>
+	<div style="width: 100%; height:29vh;
+	   background-color: white; margin-top: -2%;
+	   border: solid;
+	   border-top-width: thin; border-color: gray;
+	   border-left: none; border-bottom: none; border-right: none">
+
+
+
+
+  <script type="text/javascript">
+  	function fun1()
+  	{
+    document.getElementById("main").style.background = "url('Sunset.jpg')";
+    document.getElementById("main").style.backgroundSize= "cover";
+    document.getElementById("d").src="dil.png";
+    document.getElementById("increase").innerHTML="<b>98</b>"; 
+  
+  	}
+  	function fun2()
+  	{
+  		document.getElementById("main").style.background = "url('justin.jpg')";
+    document.getElementById("main").style.backgroundSize= "cover";
+      document.getElementById("increase").innerHTML="<b>104</b>";
+      document.getElementById("d").src="dil.png";
+  	}
+  	function fun3()
+  	{
+  		document.getElementById("main").style.background = "url('ganpati.jpg')";
+    document.getElementById("main").style.backgroundSize= "cover";
+      document.getElementById("increase").innerHTML="<b>88</b>";
+      document.getElementById("d").src="dil.png";
+
+  	}
+  	function fun4()
+  	{
+  		document.getElementById("main").style.background = "url('arijit.jpg')";
+    document.getElementById("main").style.backgroundSize= "cover";
+      document.getElementById("increase").innerHTML="<b>150</b>";
+      document.getElementById("d").src="dil.png";
+  	}
+  	function fun5()
+  	{
+  		document.getElementById("main").style.background = "url('aslam.jpg')";
+    document.getElementById("main").style.backgroundSize= "cover";
+    document.getElementById("increase").innerHTML="<b>68</b>";
+    document.getElementById("d").src="dil.png";
+
+  	}
+  	function fun6()
+  	{
+  		document.getElementById("main").style.background = "url('rail.jpg')";
+    document.getElementById("main").style.backgroundSize= "cover";
+    document.getElementById("increase").innerHTML="<b>44</b>";
+    document.getElementById("d").src="dil.png";
+  	}
+  </script>
+       <img src="Sunset.jpg" style="width: 32%; height: 13.7vh" onclick="fun1()" id="pic1">
+       <img src="justin.jpg" style="width: 32.9%; height: 13.7vh; margin-left: -0.5%" id="p2" onclick="fun2()">
+       <img src="ganpati.jpg" style="width: 33.7%; height: 13.7vh; margin-left: -0.7%" id="p3" onclick="fun3()">
+
+       <img src="arijit.jpg" style="width: 32%; height: 14.3vh; margin-top: -1%;
+         margin-bottom: 0%" id="p4" onclick="fun4()">
+      <img src="aslam.jpg" style="width: 32.9%; height: 14.3vh; margin-top: -10%;
+         margin-bottom: -0.4%; margin-left: -0.5%" id="p5" onclick="fun5()">
+
+          <img src="rail.jpg" style="width: 33.6%; height: 14.3vh; margin-top: -1%;
+         margin-bottom: -0.4%; margin-left: -0.5%" id="p6" onclick="fun6()">
+      
+     
+
+
+	</div>
+
+    <script type="text/javascript">
+	   	function eff11()
+		{
+          document.getElementById("111").src="homered.png";
+		}
+		function effback11()
+		{
+          document.getElementById("111").src="home.png";
+		}
+
+		function eff22()
+		{
+			document.getElementById("222").src="searchred.png";
+		}
+		function effback22()
+		{
+			document.getElementById("222").src="search.png";
+		}
+
+		function eff33()
+		{
+			document.getElementById("333").src="camerared.png";
+		}
+		function effback33()
+		{
+			document.getElementById("333").src="camera.png";
+		}
+
+		function eff44()
+		{
+			document.getElementById("444").src="dil2red.png";
+		}
+		function effback44()
+		{
+			document.getElementById("444").src="dil2.png";
+		}
+
+		function eff55()
+		{
+			document.getElementById("555").src="man2red.png";
+		}
+		function effback55()
+		{
+			document.getElementById("555").src="man.png";
+		}
+
+	   </script>
+
+	<div style="width: 100%; height: 5vh;
+	   background-color: #F8F8F8; margin-top: -2%;
+	   border: solid;
+	   border-top-width: thin; border-color: gray;
+	   border-left: none; border-bottom: none; border-right: none">
+
+	       <a href=""> <img src="home.png" style="width: 7%; margin-top: 1.5%; margin-left: 2%" 
+	        id="111" onmouseover ="eff11()"  onmouseout ="effback11()" ></a>
+
+	        <a href=""> <img src="search.png" style="width: 7%; margin-top: 1.5%; margin-left: 10%" 
+	        id="222" onmouseover ="eff22()"  onmouseout ="effback22()" ></a>
+
+	     <a href="">  <img src="camera.png" style="width: 8%; margin-top: 1.5%; margin-left: 12%"
+	           id="333"
+	           onmouseover ="eff33()"  onmouseout ="effback33()" ></a>
+
+
+	      <img src="dil2.png" style="width: 8%; margin-top: 1.5%; margin-left: 14%"
+	           id="444"
+	            onmouseover ="eff44()"  onmouseout ="effback44()">
+
+
+	      <a href=""> <img src="man.png" style="width: 8%; margin-top: 1.5%; margin-left: 10%"
+	           id="555"
+	           onmouseover ="eff55()"  onmouseout ="effback55()" ></a>
+
+	 
+	  </div>
+       
+    </div>
+
+
+    
+   
+</body>
+</html>
